@@ -546,12 +546,18 @@ height: auto;
 }
 .dropdown-submenu > .dropdown-menu {
 
-  /*left: 100%;*/
 
-  -webkit-border-radius: 0 6px 6px 6px;
-  -moz-border-radius: 0 6px 6px 6px;
-  border-radius: 0 6px 6px 6px;
+  height:200px;
+  width:300px;
+
+  -webkit-border-radius: 0 0px 0px 0px;
+  -moz-border-radius: 0 0px 0px 0px;
+
+
+  border-radius: 0 0px 0px 0px;
 }
+
+
 .dropdown-submenu:hover > .dropdown-menu {
   display: block;
 }
@@ -566,7 +572,7 @@ height: auto;
 }
 .dropdown-submenu > a:after {
   display: block;
-  content: " ";
+  
   float: right;
   width: 0;
   height: 0;

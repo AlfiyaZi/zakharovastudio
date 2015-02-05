@@ -342,7 +342,7 @@ if not os.path.exists(LOG_ROOT):
 
 from oscar.defaults import *
 
-
+OSCAR_PRODUCTS_PER_PAGE=4
 OSCAR_REQUIRED_ADDRESS_FIELDS = ('first_name', )
 OSCAR_REQUIRED_ADDRESS_FIELDS += ('phone_number',)
 OSCAR_SHOP_NAME = u'Студия флористики Елены Захаровой'
