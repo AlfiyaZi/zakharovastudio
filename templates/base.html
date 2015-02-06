@@ -98,6 +98,7 @@
 
         <link rel=" stylesheet"   href="{% static "flowers/css/color_scheme/green.css" %}"   type="text/css" title="orange" />
 
+            <link rel="stylesheet" href="{% static "flowers/css/lightbox.css" %}"  />
 
 
 
@@ -164,7 +165,8 @@
 }(document, 'script', 'facebook-jssdk'));</script>
 
 		<!-- Bootstrap JS -->
-
+    <script src="{% static "flowers/js/jquery-1.11.0.min.js"%}" ></script>
+	<script src="{% static "flowers/js/lightbox.min.js"%}" ></script>
 
 		<!-- SLIDER REVOLUTION 4.x SCRIPTS  -->
 		<script type="text/javascript" src="{% static "flowers/js/jquery.themepunch.plugins.min.js"%}" ></script>
@@ -239,6 +241,9 @@
 				});
 			});
         </script>
+
+
+
 
         <script>
 		jQuery(".gallery-img-link").prettyPhoto({

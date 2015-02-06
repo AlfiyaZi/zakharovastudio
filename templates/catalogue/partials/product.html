@@ -36,7 +36,7 @@
 
                                        {% with image=product.primary_image %}
                                 {% thumbnail image.original  "280x280" crop="center" as thumb %}
-                                    <a href="{{ product.get_absolute_url }}"><img   src="{{ thumb.url }}" class="img-thumbnail" width="{{ im.width }}" height="{{ im.height }}" alt="{{ product.get_title }}"  ></a>
+                                    <a href="{{ product.get_absolute_url }}"><img   src="{{ thumb.url }}"  data-lightbox="{{ product.get_absolute_url }}" class="img-thumbnail" width="{{ im.width }}" height="{{ im.height }}" alt="{{ product.get_title }}"  ></a>
                                     {% endthumbnail %}
 
                                 {% endwith %}
